@@ -1,0 +1,75 @@
+:root{
+    --body:#EAEAEA;
+    --white:  #FFFFFF;
+    --black:#000;
+    --red:#E31C1C;
+    --text:rgba(0, 0, 0, 0.8);
+    --text-special:rgba(0, 0, 0, 0.54);
+    --shadow:rgba(0, 0, 0, 0.12);
+    --button-color:rgba(255, 221, 45, 1);
+    --button-active:#FAB619;
+    --button-hover:#FCC521;
+    --button-focus:#9d8b2f;
+    --line-height_header:20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(217, 217, 217, 1);
+    align-items: center;
+    height: 62px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.header__name{
+    height: 20px;
+}
+
+.header p{
+    line-height: var(--line-height_header);
+}
+.main__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.card{
+    width: 40%;
+}
+
+.main__buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__button.btn-primary{
+    height: 44px;
+    border-radius: 8px;
+    width: 37%;
+}
+
+.setup{
+    border-radius: 8px;
+    height: 37px;
+}
+
+.add-button{
+    border-radius: 8px;
+    height: 37px;
+}
+
+.main__form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__card.card{
+    margin-top: 17px;
+}

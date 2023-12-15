@@ -1,3 +1,13 @@
-# Лазутов Марк Юрьевич
-# ПМИ 6408-010302D 4 курс
-# Одна ошибка и ты ошибся
+Start JSON Server
+
+npm install -g json-server
+
+json-server --watch db.json
+
+
+
+
+
+
+
+

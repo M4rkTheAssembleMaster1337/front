@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Default item 1",
+      "body": "Item 1",
+      "img": "https://s1.livelib.ru/boocover/1000200213/200x305/c655/boocover.jpg",
+      "code": "1",
+      "provider": "someone 1"
+    }
+  ],
+  "creatorInfo": {
+    "name": "Лазутов Марк",
+    "group": "6408",
+    "repo": "https://github.com/M4rkTheAssembleMaster1337"
+  }
+}

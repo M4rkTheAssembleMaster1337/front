@@ -219,12 +219,15 @@ main {
   border-radius: 8px;
 
 }
-.section-info__more-button:active{
-  background-color: var(--button__active);
-}
+
 .section-info__more-button:hover{
   background-color: var(--button__hover);
 }
+
+.section-info__more-button:active{
+  background-color: var(--button__active);
+}
+
 .section-info__more-button:focus{
   outline: 2px solid var(--button__focus);
 }

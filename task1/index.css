@@ -54,19 +54,22 @@ h2{
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  margin: 0;
 }
 
 header {
-  /*padding: 1rem;*/
+  /* padding: 1rem; */
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   border-bottom: 1px solid var(--main-border-color);
-  box-shadow: var(--main-shadow-color) 0 1px 4px 0 ;
-  background-color:  var(--white__second);
+  box-shadow: var(--main-shadow-color) 0 1px 4px 0;
+  background-color: var(--white);
   height: 64px;
+  width: 100%;
+  z-index: 99;
 }
 .header__container{
   display: flex;
@@ -85,19 +88,27 @@ header {
 
 .header__logo-container{
   display: flex;
+  justify-content: flex-start;
   align-items: center;
+  background-color: var(--white);
+  width: 25%;
+  height: 64px;
 }
 
 .header__left-side{
   display: flex;
-  width: 73%;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  width: 60%;
+  height: 64px;
 }
 
 .header__variant{
   color: var(--variant-color__header);
   font-size: var(--font-size__header);
   line-height: var(--line-height__header);
+  padding-right: 5%;
 }
 
 .header__variant-active{
@@ -107,26 +118,33 @@ header {
   text-decoration-thickness: 2px;
   font-size: var(--font-size__header);
   line-height: var(--line-height__header);
+  padding-right: 5%;
 }
 
 
 
 .header__right-side{
   display: flex;
-  width: 6%;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--white);
+  width: 10%;
+  height: 64px;
 }
 
 .header__variants{
   display: flex;
-  margin-left: 40px;
-  width: 45%;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--white);
+  width: 75%;
+  height: 64px;
 }
 
 .header__sign-in-container{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   width: 100%;
 }
 
@@ -159,7 +177,7 @@ footer {
 }
 
 main {
-  max-width: var(--width__size);
+  /*max-width: var(--width__size);*/
 }
 
 .section-info{
@@ -169,14 +187,20 @@ main {
   justify-content: space-around;
   flex-wrap: wrap;
   align-content: center;
+  padding-top: 56px;
 }
 
 .section-info__text-block{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  height: 192px;
+  padding-top: 0px;
+  height: 170px;
+  width: 70%;
+
 }
 
 .section-info__text{
